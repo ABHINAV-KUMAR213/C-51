@@ -1,13 +1,15 @@
 h1 {
-    color: brown;
+    color: #fdfdfd;
 }
 * {
     border: solid;
 }
 .header{
-    background-color: aqua;
+    background-color: #f222f2;
+    text-emphasis-color: #dd5555;
     display :flex;
     justify-content: space-evenly;
+    border-color: #dddd6d;
 }
 .site_description{
     display :flex;
@@ -18,11 +20,21 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    background-color: #dddd6d;
+    border-color: #fff3f3;
 }
 .footer{
 display: flex;
 justify-content: flex-end;
+background-color: #dd5555;
+border-color: #aa7777;
 }
 p,h2{
     text-align: center;
+    background-color: #aaddff;
+    text-decoration-color:#f222f2;
+}
+body{
+    border-color: #2e9c0c;
+    background-color: #bb1111;
 }
